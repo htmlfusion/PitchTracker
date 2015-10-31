@@ -13,6 +13,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "myo": "^2.1.0",
-    "serve-favicon": "~2.3.0"
+    "nodemon": "^1.8.0",
+    "serve-favicon": "~2.3.0",
+    "websocket": "^1.0.22"
   }
 }
