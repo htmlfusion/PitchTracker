@@ -3,7 +3,7 @@ var app = express();
 
 
 app.get('/', function (req, res) {
-    res.send('Its time for dodger baseball!');
+    res.render('index', { title: 'Express' });
 });
 
 var server = app.listen(3000, function () {
