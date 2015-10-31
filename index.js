@@ -11,6 +11,6 @@ var server = app.listen(3000, function () {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log('Example app listening at http://%s:%s', host, port);
+    console.log('Step to the plate at http://%s:%s', host, port);
     console.log (myoListeners);
 });
